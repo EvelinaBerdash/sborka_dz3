@@ -32,6 +32,12 @@ module.exports = {
                         }
                     }
                 ]
+            },
+            {
+                test: /\.(mp[3|4])$/i,
+                use: [
+                    'file-loader'
+                ]
             }
         ]
     },
