@@ -27,7 +27,18 @@
         object-fit: cover;
     }
 
+    &__audio {
+        max-width: 380px;
+        height: 250px;
+    }
+
     &__title {
         padding: 20px 0;
+    }
+
+    &__video {
+        width: 100%;
+        max-width: 380px;
+        height: 250px;
     }
 }
